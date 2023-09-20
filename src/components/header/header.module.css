@@ -1,0 +1,43 @@
+.container {
+  align-items: center;
+  /* background-color: var(--background-card); */
+  border: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  height: 25%;
+  padding: 1rem;
+  width: 100%;
+}
+
+.buttonContainer,.titleContainer, .imgContainer {
+  display: flex;
+  border: 1px solid red;
+  height: 100%;
+  width: 35%;
+}
+
+.buttonContainer{
+  flex-direction: column;
+}
+
+.button {
+  margin-bottom: 1rem;
+  width: 30%;
+} 
+
+.titleContainer {
+  align-items: center;
+  flex-direction: column;
+}
+
+h2,h3 {
+  border-bottom: 1px solid var(--border);
+
+  margin-top: 2rem;
+}
+
+.img {
+  border-radius: 5%;
+  width:auto;
+  height: 100%;
+}

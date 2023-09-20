@@ -1,10 +1,13 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Layout from './pages/Layout';
 
 function App() {
   return (
-    <section>
-      <h1>My project</h1>
-    </section>
+    <Routes>
+      <Route path="/" element={ <Layout /> } />
+
+    </Routes>
   );
 }
 
