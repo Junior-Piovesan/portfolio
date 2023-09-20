@@ -25,7 +25,9 @@ export default function Header() {
 
       <div className={ styles.titleContainer }>
         <h2>Junior Piovesan</h2>
-        <h3>Desenvolvedor Front-end</h3>
+        <h3 className="teaxtAnimation">
+          Desenvolvedor Front-end
+        </h3>
       </div>
       <div />
 
