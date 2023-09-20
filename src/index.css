@@ -1,0 +1,24 @@
+:root {
+  --background-primary:#0a0c10;
+  --background-secudary:#272b33;
+  --font-color: rgb(113, 183, 255);
+  /* --background-card: #216e39; */
+  --background-card: #09b43a;
+  --border-card:#00f846;
+  --border-color: #f0f3f6;
+}
+
+* {
+  color: var(--font-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  background-color: var(--background-primary);
+  padding: 0.5rem;
+}

@@ -1,1 +1,5 @@
-
+#root {
+  background-color: var(--background-secudary);
+  height: 98vh;
+  width: 100%;
+}
