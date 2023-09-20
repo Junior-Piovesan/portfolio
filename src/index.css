@@ -1,10 +1,10 @@
 :root {
-  --background-primary:#0a0c10;
-  --background-secudary:#272b33;
+  --background-card:#0a0c10;
+  --background-secundary:#272b33;
   --font-color: rgb(113, 183, 255);
   --font-button: #fff;
   --background-button: #216e39;
-  --background-card: #09b43a;
+  /* --background-card: #09b43a; */
   --border:#00f846;
   --border-color: #f0f3f6;
   --shadow: #216e39;
@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: var(--background-primary);
+  background-color: var(--background-card);
   padding: 0.5rem;
 }
 

@@ -13,18 +13,20 @@ export default function Header() {
       <div className={ styles.buttonContainer }>
         <button
           className={ styles.button }
+          onClick={ () => navigate('/about') }
         >
           Conheça minha hitória
         </button>
         <button
           className={ styles.button }
+          onClick={ () => navigate('/projects') }
         >
-          conheça meus Projeto
+          Conheça meus projetos
         </button>
       </div>
 
       <div className={ styles.titleContainer }>
-        <h2>Junior Piovesan</h2>
+        <h2 className={ styles.title }>Junior Piovesan</h2>
         <h3 className="teaxtAnimation">
           Desenvolvedor Front-end
         </h3>
