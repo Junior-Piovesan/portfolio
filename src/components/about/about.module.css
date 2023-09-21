@@ -49,6 +49,7 @@ font-size: 1.1rem;
     margin-top:1rem;
   }
   .article {
+    background-color: transparent;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
     width: 100%;
