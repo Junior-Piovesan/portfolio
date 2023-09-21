@@ -1,11 +1,10 @@
 .footer {
-  background-color: var(--background-card);
   border-radius: 0.3rem;
   bottom: 0.5rem;
   display: flex;
   height: 80px;
   margin-bottom: 0.5rem;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   width: 98.1%;
 }

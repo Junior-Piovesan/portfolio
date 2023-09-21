@@ -4,15 +4,12 @@
   height: 100%;
   margin-top: 2rem;
   width: 100%;
-  /* flex-direction: column; */
 }
 
 .article {
-
-  height: 62vh;
   margin-top: 3%;
   padding-left: 2%;
-  width: 28%;
+  /* width: 28%; */
 }
 
 .title {
@@ -20,21 +17,3 @@
   margin-top: 2rem;
   letter-spacing: 0.1rem;
 }
-
-
-
-/* .contatosContainer {
-  width: 100%;
-}
-
-.titleContatos {
-  margin-top: 2rem;
-  width: 100%;
-}
-
-.imgIcons {
-  border-bottom: 1px solid var(--border);
-  margin: 5%;
-  padding-bottom: 5px;
-  width: 10%;
-} */
