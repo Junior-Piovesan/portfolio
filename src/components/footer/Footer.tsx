@@ -1,11 +1,17 @@
 import styles from './footer.module.css';
-
-import gitHubIcon from '../../assets/github-icon.png';
+import Contact from '../contact/Contact';
+import Logo from '../logo/Logo';
 
 export default function Footer() {
   return (
-    <footer>
-      <button><img src={ gitHubIcon } alt="git hub icon" /></button>
+    <footer className={ styles.footer }>
+      <div className={ styles.contactContainer }>
+        <Contact />
+      </div>
+
+      <div className={ styles.logoContainer }>
+        <Logo isCircle={ false } />
+      </div>
     </footer>
   );
 }
