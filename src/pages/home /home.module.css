@@ -8,9 +8,7 @@
 }
 
 .article {
-  background-color: var(--background-card);
-  border-radius: 0.3rem;
-  border: 1px solid var(--border);
+
   height: 62vh;
   margin-top: 3%;
   padding-left: 2%;
