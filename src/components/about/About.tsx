@@ -5,7 +5,7 @@ export default function About() {
     <section className={ styles.container }>
       <article className={ styles.article }>
 
-        <h1 className={ styles.title }>Desenvolvedor Front-end</h1>
+        <h1 className={ styles.title }>Desenvolvedor Web Front-end</h1>
 
         <p className={ styles.paragraph }>
           Mecânico Diesel, com aproximadamente 10 anos de experiência,
@@ -18,7 +18,7 @@ export default function About() {
         <h2 className={ styles.subTitle }>
           Em processo de desenvolvimento como
           <br />
-          Desenvolvedor Full-stack.
+          Desenvolvedor Web Full-stack.
         </h2>
 
         <p className={ styles.paragraph }>
@@ -26,7 +26,7 @@ export default function About() {
 
           ao curso de
           <br />
-          Desenvolvimento Full-stack da Trybe,
+          Desenvolvimento Web Full-stack da Trybe,
           <br />
           onde estou cursando o módulo de Back-end,
           <br />

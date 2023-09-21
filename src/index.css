@@ -46,17 +46,18 @@ button:focus {
 }
 
 .teaxtAnimation {
-  overflow: hidden; /* Esconde o texto que ainda não foi "digitado" */
+  animation: typing 3s steps(40, end), blink-caret .90s step-end infinite;
   border-right: .15em solid var(--border); /* Adiciona o cursor de digitação */
-  white-space: nowrap; /* Impede quebrar a linha */
   margin: 0;
   letter-spacing: .15em; /* Espaçamento entre letras */
-  animation: typing 3s steps(40, end), blink-caret .90s step-end infinite;
+  overflow: hidden; /* Esconde o texto que ainda não foi "digitado" */
+  white-space: nowrap; /* Impede quebrar a linha */
+  width: 330px;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 50% }
+  to { width: 80% }
 }
 
 /* Animação para o cursor de digitação piscando */

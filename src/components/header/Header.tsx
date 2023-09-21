@@ -13,6 +13,13 @@ export default function Header() {
       <div className={ styles.buttonContainer }>
         <button
           className={ styles.button }
+          onClick={ () => navigate('/') }
+        >
+          Home
+        </button>
+
+        <button
+          className={ styles.button }
           onClick={ () => navigate('/about') }
         >
           Conheça minha hitória
@@ -25,12 +32,12 @@ export default function Header() {
         </button>
       </div>
 
-      <div className={ styles.titleContainer }>
+      {/* <div className={ styles.titleContainer }>
         <h2 className={ styles.title }>Junior Piovesan</h2>
         <h3 className="teaxtAnimation">
           Desenvolvedor Front-end
         </h3>
-      </div>
+      </div> */}
       <div />
 
       <div className={ styles.imgContainer }>

@@ -28,12 +28,12 @@
   transition: 01s;
   width: 90%;
 }
-
+/* 
 .img:hover {
   border: 1px solid var(--border);
   transform: scale(1.4);
   transition: 01s;
-}
+} */
 
 .nameContainer, .linksContainer {
   margin-top: 1rem;
