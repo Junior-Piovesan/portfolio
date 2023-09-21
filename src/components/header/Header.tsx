@@ -15,7 +15,7 @@ export default function Header() {
           className={ styles.button }
           onClick={ () => navigate('/') }
         >
-          Home
+          Inicio
         </button>
 
         <button
