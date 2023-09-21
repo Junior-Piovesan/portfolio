@@ -17,3 +17,21 @@
 .contactContainer,.logoContainer  {
   width: 30%;
 }
+
+@media (max-width : 790px) {
+  .footer {
+    left: 00.5rem;
+    bottom: 0;
+  }
+
+  .logoContainer {
+    display: none;
+
+  }
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
