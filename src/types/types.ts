@@ -3,6 +3,6 @@ export type ProjectsType = {
   name: string,
   description: string,
   repoUrl:string,
-  Deploy: string,
+  deploy: string,
   images:string[]
 };

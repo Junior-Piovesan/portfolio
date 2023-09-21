@@ -1,0 +1,66 @@
+:root {
+  --background-card:#0a0c10;
+  --background-secundary:#272b33;
+  --font-color: rgb(113, 183, 255);
+  --font-button: #fff;
+  --background-button: #216e39;
+  /* --background-card: #09b43a; */
+  --border:#00f846;
+  --border-color: #f0f3f6;
+  --shadow: #216e39;
+}
+
+* {
+  color: var(--font-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--background-card);
+  padding: 0.5rem;
+}
+
+button {
+  background-color: var(--background-button);
+  border-radius: 0.3rem;
+  border-style: none;
+  border: 1px solid var(--border);
+  color: var(--font-button);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 85%;
+  height: 40px;
+  width: 120px;
+}
+
+button:active {
+  border: 2px solid var(--border);
+}
+
+button:focus {
+  border: 2px solid var(--border);
+}
+
+.teaxtAnimation {
+  animation: typing 3s steps(40, end), blink-caret .90s step-end infinite;
+  border-right: .15em solid var(--border);
+  margin: 0;
+  letter-spacing: .15em;
+  overflow: hidden;
+  white-space: nowrap; 
+  width: 75%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--border); }
+}
