@@ -22,13 +22,13 @@ export default function Header() {
           className={ styles.button }
           onClick={ () => navigate('/about') }
         >
-          Conheça minha hitória
+          História
         </button>
         <button
           className={ styles.button }
           onClick={ () => navigate('/projects') }
         >
-          Conheça meus projetos
+          Projetos
         </button>
       </div>
 

@@ -41,3 +41,16 @@
   font-weight: 700;
   
 }
+
+@media (max-width : 790px) {
+  .card {
+    width: 80%;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+
+}

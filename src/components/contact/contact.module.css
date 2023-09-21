@@ -17,6 +17,20 @@ a{
   width: 20%;
 }
 
-.imgIcons {
-  height: 80%;
+
+
+@media (max-width : 790px) {
+
+  a{
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    width: 25%;
+  }
+  .imgIcons {
+    height: 50%;
+  }
+
 }
