@@ -38,12 +38,13 @@ button {
 }
 
 button:active {
-  border: 2px solid var(--border);
+  border: 3px solid var(--background-button);
+  background-color: var(--border);
 }
 
 button:focus {
-  border: 2px solid var(--border);
-}
+  border: 2px solid var(--background-button);
+  background-color: var(--border);}
 
 .teaxtAnimation {
   animation: typing 3s steps(40, end),
