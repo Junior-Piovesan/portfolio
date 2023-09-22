@@ -25,14 +25,15 @@ export default function MyProjects() {
               href={ project.deploy }
               target="blank"
             >
-              Deploy do projeto
+              Deploy
             </a>
+            {/* <button>Descrição</button> */}
             <a
               className={ styles.link }
               href={ project.repoUrl }
               target="blank"
             >
-              Repositório do projeto
+              Repositório
             </a>
           </div>
 
