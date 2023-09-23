@@ -1,3 +1,4 @@
+import DynamicIconCloud from '../../components/DynamicIconCloud/DynamicIconCloud';
 import styles from './home.module.css';
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
         </h3>
 
       </article>
+      <div className={ styles.DynamicIconCloud }>
+        <DynamicIconCloud />
+      </div>
     </section>
   );
 }
