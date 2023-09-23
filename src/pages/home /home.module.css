@@ -2,14 +2,22 @@
   align-items: center;
   display: flex;
   height: 100%;
+  justify-content: space-around;
   margin-top: 2rem;
   width: 100%;
 }
 
 .article {
-  margin-top: 3%;
   padding-left: 2%;
   /* width: 28%; */
+}
+
+.DynamicIconCloud {
+  background-color: var(--background-cloud);
+  /* border: 1px solid var(--border); */
+  border-radius: 50%;
+  margin-top: 5rem;
+  width: 25%;
 }
 
 .title {
@@ -19,6 +27,23 @@
 }
 
 @media (max-width : 790px) {
+  .titleContainer {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .article {
+    margin-bottom: 5rem;
+    /* width: 28%; */
+  }
+
+  .DynamicIconCloud {
+    margin-top: 2rem;
+
+    width: 60%;
+  }
+  
+
   h2 {
     font-size: 1rem;
   }
