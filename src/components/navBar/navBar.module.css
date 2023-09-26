@@ -1,0 +1,30 @@
+.buttonContainer{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 35%;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 1px solid var(--border-bottom);
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  /* width: 20%; */
+} 
+
+.button:focus {
+  border-bottom: 1px solid var(--border);
+  
+}
+
+@media ( max-width : 790px ) {
+  .buttonContainer{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}

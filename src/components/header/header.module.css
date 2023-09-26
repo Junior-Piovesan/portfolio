@@ -9,33 +9,20 @@
   width: 100%;
 }
 
-.buttonContainer, .imgContainer {
+ .imgContainer {
   display: flex;
   height: 100%;
   width: 35%;
 }
 
-.buttonContainer{
-  align-items: end;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.button {
-  margin-bottom: 1rem;
-  width: 40%;
-} 
 
 @media ( max-width : 790px ) {
   .container {
     height: 100px;
     padding: 0.5rem;
+    justify-content: space-between;
   }
 
-  .button {
-    margin-bottom: 0.3rem;
-    width: 80%;
-  } 
 }
 
 
