@@ -16,29 +16,15 @@
 }
 
 .buttonContainer{
-
+  align-items: end;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .button {
   margin-bottom: 1rem;
-  
   width: 40%;
 } 
-
-.imgContainer {
-  justify-content: end;
-}
-
-
-
-.img {
-  border-radius: 2%;
-  box-shadow: 0px 0px 6px 4px var(--shadow);
-  width:auto;
-  height: 100%;
-}
 
 @media ( max-width : 790px ) {
   .container {
