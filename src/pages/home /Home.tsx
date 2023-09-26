@@ -1,5 +1,4 @@
 import styles from './home.module.css';
-
 import imgPerfil from '../../assets/perfil-1.png';
 import { ThemeProvider } from '../../components/DynamicIconCloud/use-theme';
 import { DynamicCloud } from '../../components/DynamicIconCloud/Dynamic-cloud';
