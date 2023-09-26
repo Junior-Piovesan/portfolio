@@ -4,7 +4,7 @@
   --background-cloud:#222427;
   --font-color: rgb(113, 183, 255);
   --font-button: #fff;
-  --background-button: #216e39;
+  --border-bottom: #216e39;
   --border:#00f846;
   --border-color: #f0f3f6;
   --shadow: #216e39;
@@ -18,33 +18,6 @@
 
   font-family: Roboto, sans-serif;
 }
-
-body {
-  background-color: var(--background-card);
-  padding: 0.5rem;
-}
-
-button {
-  background-color: var(--background-button);
-  border-radius: 0.3rem;
-  border-style: none;
-  border: 1px solid var(--border);
-  color: var(--font-button);
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 85%;
-  height: 40px;
-  width: 120px;
-}
-
-button:active {
-  border: 3px solid var(--background-button);
-  background-color: var(--border);
-}
-
-button:focus {
-  border: 2px solid var(--background-button);
-  background-color: var(--border);}
 
 .teaxtAnimation {
   animation: typing 3s steps(40, end),
