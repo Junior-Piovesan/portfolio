@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
 
       <div className={ styles.logoContainer }>
-        <Logo isCircle={ false } />
+        <Logo />
       </div>
     </footer>
   );
