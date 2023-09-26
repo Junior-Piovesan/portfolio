@@ -1,7 +1,21 @@
-import DynamicIconCloud from '../../components/DynamicIconCloud/DynamicIconCloud';
 import styles from './home.module.css';
 
 import imgPerfil from '../../assets/perfil-1.png';
+import { ThemeProvider } from '../../components/DynamicIconCloud/use-theme';
+import { DynamicCloud } from '../../components/DynamicIconCloud/Dynamic-cloud';
+
+const slugs = [
+  'react',
+  'typescript',
+  'javascript',
+  'redux',
+  'jest',
+  'html5',
+  'css3',
+  'styledcomponents',
+  'testinglibrary',
+  'visualstudiocode',
+];
 
 export default function Home() {
   return (
@@ -22,9 +36,13 @@ export default function Home() {
           <img className={ styles.img } src={ imgPerfil } alt="Imagem de perfil" />
         </div>
       </article>
+
       <div className={ styles.DynamicIconCloud }>
-        <DynamicIconCloud />
+        <ThemeProvider>
+          <DynamicCloud iconSlugs={ slugs } />
+        </ThemeProvider>
       </div>
+
     </section>
   );
 }
