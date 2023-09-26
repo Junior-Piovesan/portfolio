@@ -13,10 +13,8 @@
 
 .imgContainer {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
-
-
 
 .img {
   border-radius: 2%;
@@ -50,7 +48,8 @@
   }
 
   .DynamicIconCloud {
-    margin-top: 2rem;
+    margin-top: 1rem;
+
     width: 60%;
   }
   
