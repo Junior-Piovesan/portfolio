@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import imgPerfil from '../../assets/perfil-1.png';
+// import imgPerfil from '../../assets/perfil-1.png';
 
 import styles from './header.module.css';
 import Logo from '../logo/Logo';
@@ -9,6 +9,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     <header className={ styles.container }>
+      <Logo isCircle />
 
       <div className={ styles.buttonContainer }>
         <button
@@ -32,12 +33,10 @@ export default function Header() {
         </button>
       </div>
 
-      <Logo isCircle />
-
-      <div className={ styles.imgContainer }>
+      {/* <div className={ styles.imgContainer }>
 
         <img className={ styles.img } src={ imgPerfil } alt="Imagem de perfil" />
-      </div>
+      </div> */}
 
     </header>
   );
