@@ -30,18 +30,19 @@ export type ThemeProviderProps = {
 
 export function ThemeProvider({ children }: ThemeProviderProps) {
   const [theme, setTheme] = React.useState<Theme>(lightTheme);
-  // const toggle = React.useCallback(() => {
-  //   setTheme((prev) => {
-  //     if (prev.name === 'light') {
-  //       return darkTheme;
-  //     }
-  //     return lightTheme;
-  //   });
-  // }, []);
+  const toggle = React.useCallback(() => {
+    setTheme((prev) => {
+      if (prev.name === 'light') {
+        return darkTheme;
+      }
+      return lightTheme;
+    });
+  }, []);
   return (
     <themeContext.Provider value={ theme }>
       <div style={ { ...styles.root, backgroundColor: theme.color } }>
         {children}
+        <button onClick={ toggle }>{}</button>
       </div>
     </themeContext.Provider>
   );
