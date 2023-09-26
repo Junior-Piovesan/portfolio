@@ -19,6 +19,10 @@ export const darkTheme: Theme = {
   name: 'dark',
 };
 
+const estiloBotao = {
+  display: 'none',
+};
+
 const themeContext = React.createContext<Theme | undefined>(undefined);
 
 export const invertBg = (color: string) => (
@@ -42,7 +46,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
     <themeContext.Provider value={ theme }>
       <div style={ { ...styles.root, backgroundColor: theme.color } }>
         {children}
-        <button onClick={ toggle }>{}</button>
+        <button style={ estiloBotao } onClick={ toggle }>{}</button>
       </div>
     </themeContext.Provider>
   );
