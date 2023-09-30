@@ -1,24 +1,19 @@
 .buttonContainer{
   align-items: center;
   display: flex;
-  height: 100%;
   width: 35%;
   justify-content: space-evenly;
 }
 
-.button {
-  background-color: transparent;
-  border-style: none;
-  border-bottom: 1px solid var(--border-bottom);
+.link {
   cursor: pointer;
-  font-weight: 700;
+  color:var(--title-color);
   margin-bottom: 1rem;
-  /* width: 20%; */
+  text-decoration: underline var(--border-buttom);
 } 
 
-.button:focus {
-  border-bottom: 1px solid var(--border);
-  
+.link:focus {
+text-decoration: underline var(--border);
 }
 
 @media ( max-width : 790px ) {

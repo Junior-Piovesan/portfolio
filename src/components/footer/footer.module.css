@@ -1,21 +1,25 @@
 .footer {
   border-radius: 0.3rem;
-  bottom: 0.5rem;
+  bottom: 0;
   display: flex;
-  height: 80px;
-  margin-bottom: 0.5rem;
+  height: 100px;
   justify-content: space-between;
   position: fixed;
-  width: 98.1%;
+  width: 100%;
 }
 
 .logoContainer {
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  width: 50%;
 }
 
-.contactContainer,.logoContainer  {
+.contactContainer {
   width: 30%;
+}
+
+.logoContainer  {
+  width: 50%;
 }
 
 @media (max-width : 790px) {

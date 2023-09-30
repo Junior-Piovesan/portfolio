@@ -1,30 +1,31 @@
-import { useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import styles from './navBar.module.css';
 
 export default function NavBar() {
-  const navigate = useNavigate();
   return (
     <nav className={ styles.buttonContainer }>
-      <button
-        className={ styles.button }
-        onClick={ () => navigate('/') }
+
+      <NavLink
+        className={ styles.link }
+        to="/"
       >
         Início
-      </button>
+      </NavLink>
 
-      <button
-        className={ styles.button }
-        onClick={ () => navigate('/about') }
+      <NavLink
+        className={ styles.link }
+        to="/about"
       >
         História
-      </button>
-      <button
-        className={ styles.button }
-        onClick={ () => navigate('/projects') }
+      </NavLink>
+
+      <NavLink
+        className={ styles.link }
+        to="/projects"
       >
         Projetos
-      </button>
+      </NavLink>
     </nav>
   );
 }

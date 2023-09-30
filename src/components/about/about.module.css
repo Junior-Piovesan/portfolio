@@ -8,15 +8,13 @@
 
 .article {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  /* background-color: var(--background-card); */
   border-radius: 0.3rem;
   width: 50%;
 }
 
 .title,.paragraph,.subTitle {
-  text-align: center;
+  
   letter-spacing: 0.1rem;
   margin-bottom: 0.8rem;
   width: 100%;
@@ -36,22 +34,20 @@ font-size: 1.1rem;
 }
 
 .ul {
+  list-style: none;
   margin-bottom: 0.8rem;
 }
 
 .li {
   margin-bottom: 0.8rem;
+  
 }
 
 @media (max-width : 790px) {
   .container {
-
     margin-top:1rem;
   }
   .article {
-    background-color: transparent;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-    width: 100%;
+    width: 90%;
   }
 }

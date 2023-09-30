@@ -2,12 +2,14 @@
   --background-card:#0a0c10;
   --background-secundary:#3f4550;
   --background-cloud:#222427;
-  --font-color: rgb(113, 183, 255);
+  --title-color: rgb(113, 183, 255);
+  --font-color: #fff;
   --font-button: #fff;
-  --border-bottom: #216e39;
+  --border-buttom: #216e39;
   --border:#00f846;
   --border-color: #f0f3f6;
   --shadow: #216e39;
+
 }
 
 * {
@@ -19,6 +21,10 @@
   font-family: Roboto, sans-serif;
 }
 
+h1,h2 {
+  color: var(--title-color);
+}
+
 .teaxtAnimation {
   animation: typing 3s steps(40, end),
    blink-caret .90s step-end infinite;
@@ -27,12 +33,12 @@
   letter-spacing: .15em;
   overflow: hidden;
   white-space: nowrap; 
-  width: 85%;
+  width: 73%;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 90% }
+  to { width: 75% }
 }
 
 @keyframes blink-caret {
