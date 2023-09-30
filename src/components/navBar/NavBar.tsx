@@ -27,26 +27,5 @@ export default function NavBar() {
         Projetos
       </NavLink>
     </nav>
-  // <nav className={ styles.buttonContainer }>
-  //   <button
-  //     className={ styles.button }
-  //     onClick={ () => navigate('/') }
-  //   >
-  //     Início
-  //   </button>
-
-  //   <button
-  //     className={ styles.button }
-  //     onClick={ () => navigate('/about') }
-  //   >
-  //     História
-  //   </button>
-  //   <button
-  //     className={ styles.button }
-  //     onClick={ () => navigate('/projects') }
-  //   >
-  //     Projetos
-  //   </button>
-  // </nav>
   );
 }
