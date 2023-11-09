@@ -4,6 +4,7 @@ import { ThemeProvider } from '../../components/DynamicIconCloud/use-theme';
 import { DynamicCloud } from '../../components/DynamicIconCloud/Dynamic-cloud';
 
 import slugs from '../../data/slugs';
+import Popup from '../../components/popup/Popup';
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
           <DynamicCloud iconSlugs={ slugs } />
         </ThemeProvider>
       </div>
-
+      <Popup />
     </section>
   );
 }

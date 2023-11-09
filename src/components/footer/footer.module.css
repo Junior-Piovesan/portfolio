@@ -15,7 +15,7 @@
 }
 
 .contactContainer {
-  width: 30%;
+  width: 25%;
 }
 
 .logoContainer  {
@@ -24,6 +24,7 @@
 
 @media (max-width : 790px) {
   .footer {
+    position: static;
     left: 00.5rem;
     bottom: 0;
   }

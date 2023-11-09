@@ -3,3 +3,37 @@
   min-height: 100vh;
   width: 100%;
 }
+
+.popup {
+  animation: popup 8s ;
+  align-items: center;
+  background-color: black;
+  display: flex;
+  border: 5px solid yellow;
+  box-shadow: 0 0 1px 5px red;
+  justify-content: center;
+  height: 200px;
+  position: absolute;
+  opacity: 0;
+  width: 30%;
+}
+
+.titlePopup { color: red;}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media (max-width : 790px) {
+  .popup {
+    text-align: center;
+    width: 80%;
+  }
+}
