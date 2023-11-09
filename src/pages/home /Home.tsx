@@ -3,18 +3,7 @@ import imgPerfil from '../../assets/perfil-1.png';
 import { ThemeProvider } from '../../components/DynamicIconCloud/use-theme';
 import { DynamicCloud } from '../../components/DynamicIconCloud/Dynamic-cloud';
 
-const slugs = [
-  'react',
-  'typescript',
-  'javascript',
-  'redux',
-  'jest',
-  'html5',
-  'css3',
-  'styledcomponents',
-  'testinglibrary',
-  'visualstudiocode',
-];
+import slugs from '../../data/slugs';
 
 export default function Home() {
   return (
